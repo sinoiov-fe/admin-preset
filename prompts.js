@@ -3,18 +3,18 @@
  * 本质上是一个对话配置文件
  */
 module.exports = [
-  {
-    type: "list", // 即类型为 选择项
-    name: "project", // 名称，作为下面 generator.js导出 函数 options 的键
-    message: "请选择你要生成的项目类型", // 提示语
-    choices: [
-      { name: "vue-web", value: "vue-web" },
-      { name: "base-web", value: "base-web" },
-      { name: "pc-web", value: "pc-web" },
-      { name: "mo-web", value: "mo-web" },
-    ],
-    default: "vue-web",
-  },
+//   {
+//     type: "list", // 即类型为 选择项
+//     name: "project", // 名称，作为下面 generator.js导出 函数 options 的键
+//     message: "请选择你要生成的项目类型", // 提示语
+//     choices: [
+//       { name: "vue-web", value: "vue-web" },
+//       { name: "base-web", value: "base-web" },
+//       { name: "pc-web", value: "pc-web" },
+//       { name: "mo-web", value: "mo-web" },
+//     ],
+//     default: "vue-web",
+//   },
   {
     type: "input", // 类型为 输入项
     name: "projectName", // 名称，作为下面 generator.js导出 函数 options 的键
