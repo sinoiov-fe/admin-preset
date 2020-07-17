@@ -15,12 +15,12 @@ module.exports = [
 //     ],
 //     default: "vue-web",
 //   },
-  {
-    type: "input", // 类型为 输入项
-    name: "projectName", // 名称，作为下面 generator.js导出 函数 options 的键
-    message: "请输入项目的名称", // 提示语
-    default: "vue-web",
-  },
+//   {
+//     type: "input", // 类型为 输入项
+//     name: "projectName", // 名称，作为下面 generator.js导出 函数 options 的键
+//     message: "请输入项目的名称", // 提示语
+//     default: "vue-web",
+//   },
   // {
   //   type: 'confirm',
   //   name: 'testConfirm',
