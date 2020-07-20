@@ -22,6 +22,7 @@ module.exports = {
         // 自定义你的规则
         'vue/component-tags-order': 0,
         'prettier/prettier': 'error',
+        'no-param-reassign': 0,
         'no-console': [
             'warn',
             {
