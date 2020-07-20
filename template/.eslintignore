@@ -1,0 +1,6 @@
+# 测试和打包目录
+/dist/
+​
+# 通过反取忽略目录
+/src/component/*
+/src/libs/*

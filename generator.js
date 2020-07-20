@@ -6,7 +6,7 @@
 module.exports = (api, options, rootOptions) => {
   // options.project 可以访问上面问题数组的第一个对象的值，默认为: 'vue-web'
   //   console.log(`Your choice is ${options.project}`);
-  console.log(`Your input is ${options.projectName}`);
+//   console.log(`Your input is ${options.projectName}`);
 
   //   // 1.判断控制台用户的输入
   //   if (options.project === "vue-web") {
@@ -51,8 +51,8 @@ module.exports = (api, options, rootOptions) => {
       "vue": "^2.6.11",
       "vue-router": "^3.1.5",
       "vuex": "^3.1.2",
-    },
-    // 4.添加第三库的依赖
+    },/* /*  */
+    // 4.添加第三库的依赖 */
     devDependencies: {
       // 'normalize.css': '^8.0.1'
       "@vue/cli-plugin-babel": "~4.2.0",
